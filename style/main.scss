@@ -1,0 +1,182 @@
+@import "../bower_components/unsemantic/assets/sass/partials/reset";
+
+@font-face {
+  font-family: PFBeauSansPro-Black;
+  src: url("fonts/PFBeauSansPro-Black.ttf");
+}
+
+@font-face {
+  font-family: "PFBeauSansPro Bold";
+  src: url("fonts/PFBeauSansPro-Bold.ttf");
+}
+
+@font-face {
+  font-family: "PFBeauSansPro Bbook";
+  src: url("fonts/PFBeauSansPro-Book.ttf");
+}
+
+@font-face {
+  font-family: "PFBeauSansPro Light";
+  src: url("fonts/PFBeauSansPro-Light.ttf");
+}
+
+@font-face {
+  font-family: "PFBeauSansPro Regular";
+  src: url("fonts/PFBeauSansPro-Reg.ttf");
+}
+
+@font-face {
+  font-family: "PFBeauSansPro Thin";
+  src: url("fonts/PFBeauSansPro-Thin.ttf");
+}
+
+@font-face {
+  font-family: "PFBeauSansPro XThin";
+  src: url("fonts/PFBeauSansPro-XThin.ttf");
+}
+
+body {
+  background-image: url("../assets/Header_Pattern.jpg");
+  color: #16202e;
+}
+
+img { max-width: 100%;}
+
+button { background: transparent; outline: none; border: 2px solid #ffffff; font-family: "PFBeauSansPro Bbook"; font-size: 14px; text-transform: uppercase;
+         color: white; width: 165px; padding: 15px 0; cursor: pointer;
+       }
+
+button.green   { border-color: #75c641; color: #75c641;}
+button.solid   { background: #ffffff; color: #131a24; }
+button.primary { font-family: "PFBeauSansPro Bold"; font-size: 21px; background: #75c641; border-color: #75c641; width: 220px; padding: 20px; }
+
+input          { border: 2px solid #cacaca; padding: 15px; font: 14px Verdana; margin: 30px; background: transparent; color: #65686f;}
+
+p  { font-family: "Verdana"; font-size: 14px; font-weight: normal; color: #65686f; }
+
+blockquote {background: url("../assets/2.png") no-repeat 10px 6px; padding: 20px 12px 0 70px !important;}
+
+hr.rays,
+hr.rays-II {
+                        position: relative;
+
+  &:before            { content: ""; position: absolute; background: red; left: 0; right: 0; top: -170px; height: 200px; z-index: 2;
+                        overflow: visible;
+                        background: url("../assets/devider_1-3.svg") no-repeat center; background-size: cover;
+                      }
+}
+
+hr.rays-II:before   { background-image: url("../assets/devider_2.svg"); }
+
+
+.main-navigation {
+  .items         {
+                   margin-top: 60px;
+                   font-family: "PFBeauSansPro Bbook"; font-size: 14px; color: #16202e; text-transform: uppercase;
+                 }
+  .items a       { color: inherit; text-decoration: inherit; margin: 0 1.5%;}
+}
+
+.about {
+  position: relative;
+
+  h2                   { font-family: "PFBeauSansPro Thin"; font-size: 48px; font-weight: lighter; color: #161f2e; padding-left: 20px;}
+  blockquote           { font-family: "PFBeauSansPro Regular"; font-size: 22px; }
+  blockquote .subquote { font-family: "Verdana"; font-size: 14px; color: #75c641; display: block; }
+
+  .photo { background: #131a24 url("../assets/Photo_Igor_good-quality.jpg") no-repeat top center; height: 870px;}
+
+  article:nth-child(1) { margin-top: 160px; margin-bottom: 70px;}
+
+  article h5 { font-family: "PFBeauSansPro Regular"; font-size: 34px; color: #ffffff;}
+
+  article button { margin-top: 25px;}
+
+
+}
+
+.task { text-align: center; margin-top: -230px; padding-top: 70px; overflow: hidden;
+
+  h2                    { font-family: "PFBeauSansPro Regular"; font-size: 28px; color: #ffffff; text-transform: uppercase;}
+  h2 .subheader         { font-family: "PFBeauSansPro Thin"; font-size: 34; color: #75c641; display: block;}
+
+  h2 .subheader.small   { font-family: Verdana; font-size: 14px; font-weight: normal; color: #65686f; text-transform: none;}
+
+  article               { padding-left: 0px; padding-right: 0px; position: relative; text-align: center;}
+  article h3            { font-family: "PFBeauSansPro Bold"; font-size: 28px; text-transform: uppercase; color:#161f2e;}
+  article h3 .subheader { font-family: "PFBeauSansPro XThin"; font-size: 28px; font-weight: lighter; display: block; }
+  article footer        { margin-top: 40px;}
+  article footer img    { width: 100%;}
+  article footer button { position: absolute; bottom: 40px; width: 200px; left: 50%; margin-left: -100px; z-index: 5;}
+  article header        { z-index: 5; position: relative;}
+  .title                { position: relative;  margin-bottom: 80px;}
+
+  $big-radius : 30000px;
+
+  .items:before,
+  .title:before         { content: ""; z-index: 2; position: absolute; background: #fff; opacity: 0.1; height: $big-radius;
+                          width: $big-radius; border-radius: $big-radius; left: 50%; top: -70px; margin-left: -$big-radius/2;}
+
+  .items                { position: relative; z-index: 4;}
+  .items:before         { opacity: 1; z-index: 1; border: 220px solid #fff; background: none repeat scroll 0% 0% transparent;}
+}
+
+.programs {     padding: 90px 0;
+  h2            { font-family: "PFBeauSansPro Regular"; font-size: 46px; text-align: center; color: #65686f; position: relative;
+                  margin-bottom: 100px;
+                }
+  h2 .subheader { font-family: "Verdana"; font-size: 14px; text-align: left; font-weight: normal; position: absolute;
+                  top: 0px; width: 300px; left: 50%; margin-left: 160px; }
+
+  .item         { text-align: center; height: 220px;}
+  .item img     { margin-bottom: 30px;}
+  .item h4      { font-family: "Verdana"; font-size: 14px; font-weight: normal; color: #16202e;}
+
+  .offer        { font-family: "Verdana"; font-size: 14px; font-weight: normal; color: #16202e; text-align: center;
+                  margin-top: 20px;
+                }
+  .offer button { margin: 20px 0; }
+}
+
+.how-it-works {
+                     background-color: #f4f3ea; border-top: 1px solid transparent;
+
+  h2               { font-family: "PFBeauSansPro Regular"; font-size: 46px; text-align: center; color: #65686f;}
+  .title           { margin-top: 140px; margin-bottom: 90px; }
+
+
+  .item header     { text-align: center; }
+  .item header h4  { font-family: "PFBeauSansPro Regular"; font-size: 28px; color: #75c641; margin: 32px auto; }
+
+  .item p          { font-family: "Verdana"; font-size: 14px; font-weight: normal; color: #16202e;}
+  .item a          { font-family: "Verdana"; font-size: 14px; font-weight: normal; color: #75c641;}
+
+  .points          { padding-bottom: 170px; }
+}
+
+.feedback {
+  .invite { background-color: #131a24; text-align: center; padding: 90px 0; }
+
+  h2 { font-family: "PFBeauSansPro Regular"; font-size: 46px; text-align: center; color: #ffffff;}
+  h3 { font-family: "PFBeauSansPro Regular"; font-size: 46px; text-align: center; color: #58595b; }
+
+  h3 .subheader { font-family: "Verdana"; font-size: 14px; font-weight: normal; color: #58595b; display: block;}
+
+  em            { color: #75c641; font-variant: normal; font-style:normal; }
+
+  .contacts     { padding-top: 90px; padding-bottom: 90px; }
+  .contact      { font-family: "PFBeauSansPro Light"; font-weight: lighter; font-size: 28px; color: #000; margin-top: 60px; }
+  .contact img  { float: left; margin-right: 30px; }
+}
+
+.main-footer {
+  background: #131a24;
+
+  h3        { font-family: "PFBeauSansPro Bbook"; font-weight: normal; font-size: 14px; color: #75c641; text-decoration: underline; text-transform: uppercase;}
+  article   { text-align: center;}
+
+  footer    { background: #0d1219; padding: 23px 0;}
+
+  .partners article { margin: 60px auto;  }
+}
+

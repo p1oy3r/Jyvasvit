@@ -1,0 +1,508 @@
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+dialog,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+font,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+hr,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+main,
+mark,
+menu,
+meter,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+progress,
+q,
+rp,
+rt,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video,
+xmp {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 100%; }
+
+html,
+body {
+  height: 100%; }
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
+  display: block; }
+
+b,
+strong {
+  font-weight: bold; }
+
+img {
+  color: transparent;
+  font-size: 0;
+  vertical-align: middle;
+  -ms-interpolation-mode: bicubic; }
+
+ul,
+ol {
+  list-style: none; }
+
+li {
+  display: list-item; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+th,
+td,
+caption {
+  font-weight: normal;
+  vertical-align: top;
+  text-align: left; }
+
+q {
+  quotes: none; }
+
+q:before,
+q:after {
+  content: "";
+  content: none; }
+
+sub,
+sup,
+small {
+  font-size: 75%; }
+
+sub,
+sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+svg {
+  overflow: hidden; }
+
+@font-face {
+  font-family: PFBeauSansPro-Black;
+  src: url("fonts/PFBeauSansPro-Black.ttf"); }
+
+@font-face {
+  font-family: "PFBeauSansPro Bold";
+  src: url("fonts/PFBeauSansPro-Bold.ttf"); }
+
+@font-face {
+  font-family: "PFBeauSansPro Bbook";
+  src: url("fonts/PFBeauSansPro-Book.ttf"); }
+
+@font-face {
+  font-family: "PFBeauSansPro Light";
+  src: url("fonts/PFBeauSansPro-Light.ttf"); }
+
+@font-face {
+  font-family: "PFBeauSansPro Regular";
+  src: url("fonts/PFBeauSansPro-Reg.ttf"); }
+
+@font-face {
+  font-family: "PFBeauSansPro Thin";
+  src: url("fonts/PFBeauSansPro-Thin.ttf"); }
+
+@font-face {
+  font-family: "PFBeauSansPro XThin";
+  src: url("fonts/PFBeauSansPro-XThin.ttf"); }
+
+body {
+  background-image: url("../assets/Header_Pattern.jpg");
+  color: #16202e; }
+
+img {
+  max-width: 100%; }
+
+button {
+  background: transparent;
+  outline: none;
+  border: 2px solid #ffffff;
+  font-family: "PFBeauSansPro Bbook";
+  font-size: 14px;
+  text-transform: uppercase;
+  color: white;
+  width: 165px;
+  padding: 15px 0;
+  cursor: pointer; }
+
+button.green {
+  border-color: #75c641;
+  color: #75c641; }
+
+button.solid {
+  background: #ffffff;
+  color: #131a24; }
+
+button.primary {
+  font-family: "PFBeauSansPro Bold";
+  font-size: 21px;
+  background: #75c641;
+  border-color: #75c641;
+  width: 220px;
+  padding: 20px; }
+
+input {
+  border: 2px solid #cacaca;
+  padding: 15px;
+  font: 14px Verdana;
+  margin: 30px;
+  background: transparent;
+  color: #65686f; }
+
+p {
+  font-family: "Verdana";
+  font-size: 14px;
+  font-weight: normal;
+  color: #65686f; }
+
+blockquote {
+  background: url("../assets/2.png") no-repeat 10px 6px;
+  padding: 20px 12px 0 70px !important; }
+
+hr.rays,
+hr.rays-II {
+  position: relative; }
+  hr.rays:before,
+  hr.rays-II:before {
+    content: "";
+    position: absolute;
+    background: red;
+    left: 0;
+    right: 0;
+    top: -170px;
+    height: 200px;
+    z-index: 2;
+    overflow: visible;
+    background: url("../assets/devider_1-3.svg") no-repeat center;
+    background-size: cover; }
+
+hr.rays-II:before {
+  background-image: url("../assets/devider_2.svg"); }
+
+.main-navigation .items {
+  margin-top: 60px;
+  font-family: "PFBeauSansPro Bbook";
+  font-size: 14px;
+  color: #16202e;
+  text-transform: uppercase; }
+.main-navigation .items a {
+  color: inherit;
+  text-decoration: inherit;
+  margin: 0 1.5%; }
+
+.about {
+  position: relative; }
+  .about h2 {
+    font-family: "PFBeauSansPro Thin";
+    font-size: 48px;
+    font-weight: lighter;
+    color: #161f2e;
+    padding-left: 20px; }
+  .about blockquote {
+    font-family: "PFBeauSansPro Regular";
+    font-size: 22px; }
+  .about blockquote .subquote {
+    font-family: "Verdana";
+    font-size: 14px;
+    color: #75c641;
+    display: block; }
+  .about .photo {
+    background: #131a24 url("../assets/Photo_Igor_good-quality.jpg") no-repeat top center;
+    height: 870px; }
+  .about article:nth-child(1) {
+    margin-top: 160px;
+    margin-bottom: 70px; }
+  .about article h5 {
+    font-family: "PFBeauSansPro Regular";
+    font-size: 34px;
+    color: #ffffff; }
+  .about article button {
+    margin-top: 25px; }
+
+.task {
+  text-align: center;
+  margin-top: -230px;
+  padding-top: 70px;
+  overflow: hidden; }
+  .task h2 {
+    font-family: "PFBeauSansPro Regular";
+    font-size: 28px;
+    color: #ffffff;
+    text-transform: uppercase; }
+  .task h2 .subheader {
+    font-family: "PFBeauSansPro Thin";
+    font-size: 34;
+    color: #75c641;
+    display: block; }
+  .task h2 .subheader.small {
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: normal;
+    color: #65686f;
+    text-transform: none; }
+  .task article {
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    text-align: center; }
+  .task article h3 {
+    font-family: "PFBeauSansPro Bold";
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #161f2e; }
+  .task article h3 .subheader {
+    font-family: "PFBeauSansPro XThin";
+    font-size: 28px;
+    font-weight: lighter;
+    display: block; }
+  .task article footer {
+    margin-top: 40px; }
+  .task article footer img {
+    width: 100%; }
+  .task article footer button {
+    position: absolute;
+    bottom: 40px;
+    width: 200px;
+    left: 50%;
+    margin-left: -100px;
+    z-index: 5; }
+  .task article header {
+    z-index: 5;
+    position: relative; }
+  .task .title {
+    position: relative;
+    margin-bottom: 80px; }
+  .task .items:before,
+  .task .title:before {
+    content: "";
+    z-index: 2;
+    position: absolute;
+    background: #fff;
+    opacity: 0.1;
+    height: 30000px;
+    width: 30000px;
+    border-radius: 30000px;
+    left: 50%;
+    top: -70px;
+    margin-left: -15000px; }
+  .task .items {
+    position: relative;
+    z-index: 4; }
+  .task .items:before {
+    opacity: 1;
+    z-index: 1;
+    border: 220px solid #fff;
+    background: none repeat scroll 0% 0% transparent; }
+
+.programs {
+  padding: 90px 0; }
+  .programs h2 {
+    font-family: "PFBeauSansPro Regular";
+    font-size: 46px;
+    text-align: center;
+    color: #65686f;
+    position: relative;
+    margin-bottom: 100px; }
+  .programs h2 .subheader {
+    font-family: "Verdana";
+    font-size: 14px;
+    text-align: left;
+    font-weight: normal;
+    position: absolute;
+    top: 0px;
+    width: 300px;
+    left: 50%;
+    margin-left: 160px; }
+  .programs .item {
+    text-align: center;
+    height: 220px; }
+  .programs .item img {
+    margin-bottom: 30px; }
+  .programs .item h4 {
+    font-family: "Verdana";
+    font-size: 14px;
+    font-weight: normal;
+    color: #16202e; }
+  .programs .offer {
+    font-family: "Verdana";
+    font-size: 14px;
+    font-weight: normal;
+    color: #16202e;
+    text-align: center;
+    margin-top: 20px; }
+  .programs .offer button {
+    margin: 20px 0; }
+
+.how-it-works {
+  background-color: #f4f3ea;
+  border-top: 1px solid transparent; }
+  .how-it-works h2 {
+    font-family: "PFBeauSansPro Regular";
+    font-size: 46px;
+    text-align: center;
+    color: #65686f; }
+  .how-it-works .title {
+    margin-top: 140px;
+    margin-bottom: 90px; }
+  .how-it-works .item header {
+    text-align: center; }
+  .how-it-works .item header h4 {
+    font-family: "PFBeauSansPro Regular";
+    font-size: 28px;
+    color: #75c641;
+    margin: 32px auto; }
+  .how-it-works .item p {
+    font-family: "Verdana";
+    font-size: 14px;
+    font-weight: normal;
+    color: #16202e; }
+  .how-it-works .item a {
+    font-family: "Verdana";
+    font-size: 14px;
+    font-weight: normal;
+    color: #75c641; }
+  .how-it-works .points {
+    padding-bottom: 170px; }
+
+.feedback .invite {
+  background-color: #131a24;
+  text-align: center;
+  padding: 90px 0; }
+.feedback h2 {
+  font-family: "PFBeauSansPro Regular";
+  font-size: 46px;
+  text-align: center;
+  color: #ffffff; }
+.feedback h3 {
+  font-family: "PFBeauSansPro Regular";
+  font-size: 46px;
+  text-align: center;
+  color: #58595b; }
+.feedback h3 .subheader {
+  font-family: "Verdana";
+  font-size: 14px;
+  font-weight: normal;
+  color: #58595b;
+  display: block; }
+.feedback em {
+  color: #75c641;
+  font-variant: normal;
+  font-style: normal; }
+.feedback .contacts {
+  padding-top: 90px;
+  padding-bottom: 90px; }
+.feedback .contact {
+  font-family: "PFBeauSansPro Light";
+  font-weight: lighter;
+  font-size: 28px;
+  color: #000;
+  margin-top: 60px; }
+.feedback .contact img {
+  float: left;
+  margin-right: 30px; }
+
+.main-footer {
+  background: #131a24; }
+  .main-footer h3 {
+    font-family: "PFBeauSansPro Bbook";
+    font-weight: normal;
+    font-size: 14px;
+    color: #75c641;
+    text-decoration: underline;
+    text-transform: uppercase; }
+  .main-footer article {
+    text-align: center; }
+  .main-footer footer {
+    background: #0d1219;
+    padding: 23px 0; }
+  .main-footer .partners article {
+    margin: 60px auto; }
