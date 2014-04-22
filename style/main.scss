@@ -1,4 +1,6 @@
 @import "../bower_components/unsemantic/assets/sass/partials/reset";
+@import "../bower_components/unsemantic/assets/sass/unsemantic-grid-base";
+@import "../bower_components/unsemantic/assets/sass/unsemantic-grid-desktop";
 
 @font-face {
   font-family: PFBeauSansPro-Black;
@@ -180,3 +182,73 @@ hr.rays-II:before   { background-image: url("../assets/devider_2.svg"); }
   .partners article { margin: 60px auto;  }
 }
 
+.back-navigation {
+  position: fixed;
+  left: 0px;
+  width: 120px;
+  top: 0px;
+  bottom: 0px;
+  cursor: pointer;
+  background: url("../assets/back.png") no-repeat center 20px #1f252f;
+}
+.back-navigation-2 {
+
+  @extend .prefix-40 ;
+  @extend .suffix-20 ;
+
+  @extend .grid-40 ;
+  @extend .grid-container;
+
+  position: relative;
+  padding-left: 80px;
+  left: -80px;
+  background: url("../assets/back-2.png") no-repeat 0px center;
+  font-family: "PFBeauSansPro Light"; font-size: 28px; color: #161f2e; text-transform: uppercase;
+  line-height: 2.5;
+ }
+
+.poster {
+  background-color: #dbcdbd;
+  text-align: center;
+  overflow: hidden;
+  margin-left: 120px;
+
+  h2 {font-family: "PFBeauSansPro XThin";
+    font-size: 60px;
+    margin: -150px auto 59px;
+    width: 480px;
+    background: none repeat scroll 0% 0% rgba(28, 30, 40, 0.7);
+
+    z-index: 2;
+    position: relative;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+}
+
+.about-igor {
+  h3 { font-family: "PFBeauSansPro Regular"; font-size: 22px; color: #161f2e;}
+  article {
+    @extend .prefix-40 ;
+    @extend .suffix-20 ;
+
+    @extend .grid-40 ;
+    @extend .grid-container;
+
+    position: relative;
+    margin-bottom: 35px;
+
+  .img-container {
+      @extend .pull-70;
+      @extend .grid-70;
+
+      position: absolute;
+      text-align: right;
+
+      img {max-height: 70px;}
+    }
+  }
+
+  .video { font-size: 18px; text-transform: uppercase;}
+}
