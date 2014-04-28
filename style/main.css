@@ -1175,13 +1175,13 @@ hr.rays-II:before {
   font-size: 18px;
   text-transform: uppercase; }
 
-.about-jyvasvit article h1:nth-child(1) {
+.about-jyvasvit section h1.first {
   background: url("../assets/3.png") no-repeat left top; }
-.about-jyvasvit article h1:nth-child(2) {
+.about-jyvasvit section h1.second {
   background: url("../assets/4.png") no-repeat left top; }
-.about-jyvasvit article h1:nth-child(3) {
+.about-jyvasvit section h1.third {
   background: url("../assets/5.png") no-repeat left top; }
-.about-jyvasvit article h1:nth-child(4) {
+.about-jyvasvit section h1.fourth {
   background: url("../assets/6.png") no-repeat left top; }
 .about-jyvasvit .poster h2 {
   color: #131a24;
