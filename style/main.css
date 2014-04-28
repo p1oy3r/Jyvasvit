@@ -178,10 +178,9 @@ svg {
   width: 0;
   height: 0; }
 
-.grid-container:before, .back-navigation-2:before, .about-igor article:before, .clearfix:before,
+.grid-container:before, .back-navigation-2:before, .clearfix:before,
 .grid-container:after,
 .back-navigation-2:after,
-.about-igor article:after,
 .clearfix:after {
   content: ".";
   display: block;
@@ -192,22 +191,22 @@ svg {
   width: 0;
   height: 0; }
 
-.grid-container:after, .back-navigation-2:after, .about-igor article:after, .clearfix:after {
+.grid-container:after, .back-navigation-2:after, .clearfix:after {
   clear: both; }
 
-.grid-container, .back-navigation-2, .about-igor article, .clearfix {
+.grid-container, .back-navigation-2, .clearfix {
   /* <IE7> */
   *zoom: 1;
   /* </IE7> */ }
 
-.grid-container, .back-navigation-2, .about-igor article {
+.grid-container, .back-navigation-2 {
   margin-left: auto;
   margin-right: auto;
   max-width: 1200px;
   padding-left: 10px;
   padding-right: 10px; }
 
-.grid-5, .mobile-grid-5, .grid-10, .mobile-grid-10, .grid-15, .mobile-grid-15, .grid-20, .mobile-grid-20, .grid-25, .mobile-grid-25, .grid-30, .mobile-grid-30, .grid-35, .mobile-grid-35, .grid-40, .back-navigation-2, .about-igor article, .mobile-grid-40, .grid-45, .mobile-grid-45, .grid-50, .mobile-grid-50, .grid-55, .mobile-grid-55, .grid-60, .mobile-grid-60, .grid-65, .mobile-grid-65, .grid-70, .about-igor article .img-container, .mobile-grid-70, .grid-75, .mobile-grid-75, .grid-80, .mobile-grid-80, .grid-85, .mobile-grid-85, .grid-90, .mobile-grid-90, .grid-95, .mobile-grid-95, .grid-100, .mobile-grid-100, .grid-33, .mobile-grid-33, .grid-66, .mobile-grid-66 {
+.grid-5, .mobile-grid-5, .grid-10, .mobile-grid-10, .grid-15, .mobile-grid-15, .grid-20, .mobile-grid-20, .grid-25, .mobile-grid-25, .grid-30, .mobile-grid-30, .grid-35, .mobile-grid-35, .grid-40, .back-navigation-2, .about-igor article, .mobile-grid-40, .grid-45, .mobile-grid-45, .grid-50, .mobile-grid-50, .grid-55, .mobile-grid-55, .grid-60, .about-jyvasvit article, .mobile-grid-60, .grid-65, .mobile-grid-65, .grid-70, .about-igor article .img-container, .mobile-grid-70, .grid-75, .mobile-grid-75, .grid-80, .mobile-grid-80, .grid-85, .mobile-grid-85, .grid-90, .mobile-grid-90, .grid-95, .mobile-grid-95, .grid-100, .mobile-grid-100, .grid-33, .mobile-grid-33, .grid-66, .mobile-grid-66 {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -217,7 +216,7 @@ svg {
   *padding-left: 0;
   *padding-right: 0;
   /* </IE7> */ }
-  .grid-5 > *, .mobile-grid-5 > *, .grid-10 > *, .mobile-grid-10 > *, .grid-15 > *, .mobile-grid-15 > *, .grid-20 > *, .mobile-grid-20 > *, .grid-25 > *, .mobile-grid-25 > *, .grid-30 > *, .mobile-grid-30 > *, .grid-35 > *, .mobile-grid-35 > *, .grid-40 > *, .back-navigation-2 > *, .about-igor article > *, .mobile-grid-40 > *, .grid-45 > *, .mobile-grid-45 > *, .grid-50 > *, .mobile-grid-50 > *, .grid-55 > *, .mobile-grid-55 > *, .grid-60 > *, .mobile-grid-60 > *, .grid-65 > *, .mobile-grid-65 > *, .grid-70 > *, .about-igor article .img-container > *, .mobile-grid-70 > *, .grid-75 > *, .mobile-grid-75 > *, .grid-80 > *, .mobile-grid-80 > *, .grid-85 > *, .mobile-grid-85 > *, .grid-90 > *, .mobile-grid-90 > *, .grid-95 > *, .mobile-grid-95 > *, .grid-100 > *, .mobile-grid-100 > *, .grid-33 > *, .mobile-grid-33 > *, .grid-66 > *, .mobile-grid-66 > * {
+  .grid-5 > *, .mobile-grid-5 > *, .grid-10 > *, .mobile-grid-10 > *, .grid-15 > *, .mobile-grid-15 > *, .grid-20 > *, .mobile-grid-20 > *, .grid-25 > *, .mobile-grid-25 > *, .grid-30 > *, .mobile-grid-30 > *, .grid-35 > *, .mobile-grid-35 > *, .grid-40 > *, .back-navigation-2 > *, .about-igor article > *, .mobile-grid-40 > *, .grid-45 > *, .mobile-grid-45 > *, .grid-50 > *, .mobile-grid-50 > *, .grid-55 > *, .mobile-grid-55 > *, .grid-60 > *, .about-jyvasvit article > *, .mobile-grid-60 > *, .grid-65 > *, .mobile-grid-65 > *, .grid-70 > *, .about-igor article .img-container > *, .mobile-grid-70 > *, .grid-75 > *, .mobile-grid-75 > *, .grid-80 > *, .mobile-grid-80 > *, .grid-85 > *, .mobile-grid-85 > *, .grid-90 > *, .mobile-grid-90 > *, .grid-95 > *, .mobile-grid-95 > *, .grid-100 > *, .mobile-grid-100 > *, .grid-33 > *, .mobile-grid-33 > *, .grid-66 > *, .mobile-grid-66 > * {
     /* <IE7> */
     *margin-left: expression((!this.className.match(/grid-[1-9]/) && this.currentStyle.display === "block" && this.currentStyle.width === "auto") && "10px");
     *margin-right: expression((!this.className.match(/grid-[1-9]/) && this.currentStyle.display === "block" && this.currentStyle.width === "auto") && "10px");
@@ -334,10 +333,10 @@ svg {
   *width: expression(Math.floor(0.2 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) - parseFloat(this.parentNode.currentStyle.paddingRight))) + "px");
   /* </IE7> */ }
 
-.prefix-20 {
+.prefix-20, .about-jyvasvit article {
   margin-left: 20%; }
 
-.suffix-20, .back-navigation-2, .about-igor article {
+.suffix-20, .back-navigation-2, .about-igor article, .about-jyvasvit article {
   margin-right: 20%; }
 
 .push-20 {
@@ -527,7 +526,7 @@ svg {
   *left: expression(Math.floor(-0.55 * (this.parentNode.offsetWidth - parseFloat(this.parentNode.currentStyle.paddingLeft) - parseFloat(this.parentNode.currentStyle.paddingRight))) + "px");
   /* </IE7> */ }
 
-.grid-60 {
+.grid-60, .about-jyvasvit article {
   float: left;
   width: 60%;
   /* <IE7> */
@@ -1151,12 +1150,14 @@ hr.rays-II:before {
     font-size: 60px;
     margin: -150px auto 59px;
     width: 480px;
-    background: none repeat scroll 0% 0% rgba(28, 30, 40, 0.7);
+    background-color: rgba(28, 30, 40, 0.7);
     z-index: 2;
     position: relative;
     color: white;
     text-align: center;
     padding: 10px 0; }
+  .poster img {
+    width: 100%; }
 
 .about-igor h3 {
   font-family: "PFBeauSansPro Regular";
@@ -1173,3 +1174,43 @@ hr.rays-II:before {
 .about-igor .video {
   font-size: 18px;
   text-transform: uppercase; }
+
+.about-jyvasvit article h1:nth-child(1) {
+  background: url("../assets/3.png") no-repeat left top; }
+.about-jyvasvit article h1:nth-child(2) {
+  background: url("../assets/4.png") no-repeat left top; }
+.about-jyvasvit article h1:nth-child(3) {
+  background: url("../assets/5.png") no-repeat left top; }
+.about-jyvasvit article h1:nth-child(4) {
+  background: url("../assets/6.png") no-repeat left top; }
+.about-jyvasvit .poster h2 {
+  color: #131a24;
+  background-color: rgba(255, 255, 255, 0.7); }
+.about-jyvasvit article h1 {
+  font-family: "PFBeauSansPro Regular";
+  font-size: 28px;
+  padding-left: 70px;
+  margin-left: -70px;
+  margin-bottom: 30px; }
+.about-jyvasvit article h1 .subheader {
+  font-family: "PFBeauSansPro XThin";
+  display: block; }
+.about-jyvasvit article h2 {
+  color: #75c641;
+  font-family: "PFBeauSansPro Light";
+  font-size: 28px;
+  font-weight: 100; }
+.about-jyvasvit article {
+  position: relative;
+  margin-bottom: 35px; }
+  .about-jyvasvit article .item {
+    margin-top: 40px; }
+  .about-jyvasvit article .item img {
+    margin: 10px 0; }
+.about-jyvasvit ul {
+  font-family: "Verdana";
+  font-size: 14px;
+  font-weight: normal;
+  color: #65686f; }
+.about-jyvasvit li {
+  list-style: outside; }

@@ -217,7 +217,7 @@ hr.rays-II:before   { background-image: url("../assets/devider_2.svg"); }
     font-size: 60px;
     margin: -150px auto 59px;
     width: 480px;
-    background: none repeat scroll 0% 0% rgba(28, 30, 40, 0.7);
+    background-color: rgba(28, 30, 40, 0.7);
 
     z-index: 2;
     position: relative;
@@ -225,6 +225,7 @@ hr.rays-II:before   { background-image: url("../assets/devider_2.svg"); }
     text-align: center;
     padding: 10px 0;
   }
+  img {width: 100%;}
 }
 
 .about-igor {
@@ -234,7 +235,7 @@ hr.rays-II:before   { background-image: url("../assets/devider_2.svg"); }
     @extend .suffix-20 ;
 
     @extend .grid-40 ;
-    @extend .grid-container;
+
 
     position: relative;
     margin-bottom: 35px;
@@ -251,4 +252,37 @@ hr.rays-II:before   { background-image: url("../assets/devider_2.svg"); }
   }
 
   .video { font-size: 18px; text-transform: uppercase;}
+}
+
+.about-jyvasvit {
+  article h1:nth-child(1) { background: url("../assets/3.png") no-repeat left top;}
+  article h1:nth-child(2) { background: url("../assets/4.png") no-repeat left top;}
+  article h1:nth-child(3) { background: url("../assets/5.png") no-repeat left top;}
+  article h1:nth-child(4) { background: url("../assets/6.png") no-repeat left top;}
+
+  .poster h2 { color: #131a24; background-color: rgba(255, 255, 255, .7);}
+
+
+  article h1            { font-family: "PFBeauSansPro Regular"; font-size: 28px; padding-left: 70px; margin-left: -70px;
+                          margin-bottom: 30px;
+                        }
+  article h1 .subheader { font-family: "PFBeauSansPro XThin"; display: block}
+
+  article h2 {color: #75c641; font-family: "PFBeauSansPro Light"; font-size: 28px; font-weight: 100;}
+
+  article {
+    @extend .prefix-20 ;
+    @extend .suffix-20 ;
+
+    @extend .grid-60 ;
+
+
+    position: relative;
+    margin-bottom: 35px;
+
+    .item { margin-top: 40px;}
+    .item img {margin: 10px 0;}
+  }
+  ul { font-family: "Verdana"; font-size: 14px; font-weight: normal; color: #65686f;}
+  li { list-style: outside;}
 }
