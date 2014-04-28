@@ -1175,6 +1175,9 @@ hr.rays-II:before {
   font-size: 18px;
   text-transform: uppercase; }
 
+.about-jyvasvit p {
+  margin-bottom: 10px;
+  margin-top: 10; }
 .about-jyvasvit section h1.first {
   background: url("../assets/3.png") no-repeat left top; }
 .about-jyvasvit section h1.second {
