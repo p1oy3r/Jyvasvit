@@ -44,13 +44,15 @@ body {
 
 img { max-width: 100%;}
 
-button { background: transparent; outline: none; border: 2px solid #ffffff; font-family: "PFBeauSansPro Bbook"; font-size: 14px; text-transform: uppercase;
-         color: white; width: 165px; padding: 15px 0; cursor: pointer;
+button,
+.btn   { background: transparent; outline: none; border: 2px solid #ffffff; font-family: "PFBeauSansPro Bbook"; font-size: 14px;
+         text-transform: uppercase; text-align: center;
+         color: white; width: 165px; padding: 15px 0; cursor: pointer; text-decoration: none; display: inline-block;
        }
 
-button.green   { border-color: #75c641; color: #75c641;}
-button.solid   { background: #ffffff; color: #131a24; }
-button.primary { font-family: "PFBeauSansPro Bold"; font-size: 21px; background: #75c641; border-color: #75c641; width: 220px; padding: 20px; }
+.btn.green, button.green     { border-color: #75c641; color: #75c641;}
+.btn.solid, button.solid     { background: #ffffff; color: #131a24; }
+.btn.primary, button.primary { font-family: "PFBeauSansPro Bold"; font-size: 21px; background: #75c641; border-color: #75c641; width: 220px; padding: 20px; }
 
 input          { border: 2px solid #cacaca; padding: 15px; font: 14px Verdana; margin: 30px; background: transparent; color: #65686f;}
 
@@ -92,7 +94,8 @@ hr.rays-II:before   { background-image: url("../assets/devider_2.svg"); }
 
   article h5 { font-family: "PFBeauSansPro Regular"; font-size: 34px; color: #ffffff;}
 
-  article button { margin-top: 25px;}
+  article button,
+  article .btn{ margin-top: 25px;}
 
 
 }
@@ -109,7 +112,8 @@ hr.rays-II:before   { background-image: url("../assets/devider_2.svg"); }
   article h3 .subheader { font-family: "PFBeauSansPro XThin"; font-size: 28px; font-weight: lighter; display: block; }
   article footer        { margin-top: 40px;}
   article footer img    { width: 100%;}
-  article footer button { position: absolute; bottom: 40px; width: 200px; left: 50%; margin-left: -100px; z-index: 5;}
+  article footer button,
+  article footer .btn   { position: absolute; bottom: 40px; width: 200px; left: 50%; margin-left: -100px; z-index: 5;}
   article header        { z-index: 5; position: relative;}
   .title                { position: relative;  margin-bottom: 80px;}
 
@@ -137,7 +141,9 @@ hr.rays-II:before   { background-image: url("../assets/devider_2.svg"); }
   .offer        { font-family: "Verdana"; font-size: 14px; font-weight: normal; color: #16202e; text-align: center;
                   margin-top: 20px;
                 }
-  .offer button { margin: 20px 0; }
+
+  .offer button,
+  .offer .btn   { margin: 20px auto; display: block; position: relative; z-index: 99;}
 }
 
 .how-it-works {

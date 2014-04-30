@@ -815,27 +815,31 @@ body {
 img {
   max-width: 100%; }
 
-button {
+button,
+.btn {
   background: transparent;
   outline: none;
   border: 2px solid #ffffff;
   font-family: "PFBeauSansPro Bbook";
   font-size: 14px;
   text-transform: uppercase;
+  text-align: center;
   color: white;
   width: 165px;
   padding: 15px 0;
-  cursor: pointer; }
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block; }
 
-button.green {
+.btn.green, button.green {
   border-color: #75c641;
   color: #75c641; }
 
-button.solid {
+.btn.solid, button.solid {
   background: #ffffff;
   color: #131a24; }
 
-button.primary {
+.btn.primary, button.primary {
   font-family: "PFBeauSansPro Bold";
   font-size: 21px;
   background: #75c641;
@@ -918,7 +922,8 @@ hr.rays-II:before {
     font-family: "PFBeauSansPro Regular";
     font-size: 34px;
     color: #ffffff; }
-  .about article button {
+  .about article button,
+  .about article .btn {
     margin-top: 25px; }
 
 .task {
@@ -961,7 +966,8 @@ hr.rays-II:before {
     margin-top: 40px; }
   .task article footer img {
     width: 100%; }
-  .task article footer button {
+  .task article footer button,
+  .task article footer .btn {
     position: absolute;
     bottom: 40px;
     width: 200px;
@@ -1032,8 +1038,12 @@ hr.rays-II:before {
     color: #16202e;
     text-align: center;
     margin-top: 20px; }
-  .programs .offer button {
-    margin: 20px 0; }
+  .programs .offer button,
+  .programs .offer .btn {
+    margin: 20px auto;
+    display: block;
+    position: relative;
+    z-index: 99; }
 
 .how-it-works {
   background-color: #f4f3ea;
@@ -1177,7 +1187,7 @@ hr.rays-II:before {
 
 .about-jyvasvit p {
   margin-bottom: 10px;
-  margin-top: 10; }
+  margin-top: 10px; }
 .about-jyvasvit section h1.first {
   background: url("../assets/3.png") no-repeat left top; }
 .about-jyvasvit section h1.second {
