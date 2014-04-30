@@ -812,6 +812,9 @@ body {
   background-image: url("../assets/Header_Pattern.jpg");
   color: #16202e; }
 
+body {
+  min-width: 1024px !important; }
+
 img {
   max-width: 100%; }
 
@@ -859,7 +862,8 @@ p {
   font-family: "Verdana";
   font-size: 14px;
   font-weight: normal;
-  color: #65686f; }
+  color: #65686f;
+  line-height: 20px; }
 
 blockquote {
   background: url("../assets/2.png") no-repeat 10px 6px;
@@ -985,21 +989,20 @@ hr.rays-II:before {
     content: "";
     z-index: 2;
     position: absolute;
-    background: #fff;
-    opacity: 0.1;
-    height: 30000px;
-    width: 30000px;
-    border-radius: 30000px;
+    background: rgba(0, 0, 0, 0.5);
+    height: 40000px;
+    width: 40000px;
+    border-radius: 40000px;
     left: 50%;
     top: -70px;
-    margin-left: -15000px; }
+    margin-left: -20000px; }
   .task .items {
     position: relative;
     z-index: 4; }
   .task .items:before {
     opacity: 1;
     z-index: 1;
-    border: 220px solid #fff;
+    border: 250px solid #fff;
     background: none repeat scroll 0% 0% transparent; }
 
 .programs {
@@ -1056,13 +1059,15 @@ hr.rays-II:before {
   .how-it-works .title {
     margin-top: 140px;
     margin-bottom: 90px; }
-  .how-it-works .item header {
-    text-align: center; }
   .how-it-works .item header h4 {
     font-family: "PFBeauSansPro Regular";
     font-size: 28px;
     color: #75c641;
-    margin: 32px auto; }
+    margin: 32px auto;
+    text-align: left; }
+  .how-it-works .item header h4 .subheader {
+    font-family: "PFBeauSansPro XThin";
+    font-weight: 100; }
   .how-it-works .item p {
     font-family: "Verdana";
     font-size: 14px;
@@ -1075,6 +1080,8 @@ hr.rays-II:before {
     color: #75c641; }
   .how-it-works .points {
     padding-bottom: 170px; }
+  .how-it-works .points p {
+    margin: 10px auto; }
 
 .feedback .invite {
   background-color: #131a24;
@@ -1140,6 +1147,7 @@ hr.rays-II:before {
   background: url("../assets/back.png") no-repeat center 20px #1f252f; }
 
 .back-navigation-2 {
+  margin-top: 50px;
   position: relative;
   padding-left: 80px;
   left: -80px;

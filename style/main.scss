@@ -42,6 +42,7 @@ body {
   color: #16202e;
 }
 
+body {min-width: 1024px !important;}
 img { max-width: 100%;}
 
 button,
@@ -56,9 +57,9 @@ button,
 
 input          { border: 2px solid #cacaca; padding: 15px; font: 14px Verdana; margin: 30px; background: transparent; color: #65686f;}
 
-p  { font-family: "Verdana"; font-size: 14px; font-weight: normal; color: #65686f; }
+p  { font-family: "Verdana"; font-size: 14px; font-weight: normal; color: #65686f; line-height: 20px; }
 
-blockquote {background: url("../assets/2.png") no-repeat 10px 6px; padding: 20px 12px 0 70px !important;}
+blockquote { background: url("../assets/2.png") no-repeat 10px 6px; padding: 20px 12px 0 70px !important;}
 
 hr.rays,
 hr.rays-II {
@@ -117,14 +118,14 @@ hr.rays-II:before   { background-image: url("../assets/devider_2.svg"); }
   article header        { z-index: 5; position: relative;}
   .title                { position: relative;  margin-bottom: 80px;}
 
-  $big-radius : 30000px;
+  $big-radius : 40000px;
 
   .items:before,
-  .title:before         { content: ""; z-index: 2; position: absolute; background: #fff; opacity: 0.1; height: $big-radius;
+  .title:before         { content: ""; z-index: 2; position: absolute; background: rgba(0,0,0,0.5); height: $big-radius;
                           width: $big-radius; border-radius: $big-radius; left: 50%; top: -70px; margin-left: -$big-radius/2;}
 
   .items                { position: relative; z-index: 4;}
-  .items:before         { opacity: 1; z-index: 1; border: 220px solid #fff; background: none repeat scroll 0% 0% transparent;}
+  .items:before         { opacity: 1; z-index: 1; border: 250px solid #fff; background: none repeat scroll 0% 0% transparent;}
 }
 
 .programs {     padding: 90px 0;
@@ -153,13 +154,15 @@ hr.rays-II:before   { background-image: url("../assets/devider_2.svg"); }
   .title           { margin-top: 140px; margin-bottom: 90px; }
 
 
-  .item header     { text-align: center; }
-  .item header h4  { font-family: "PFBeauSansPro Regular"; font-size: 28px; color: #75c641; margin: 32px auto; }
+  .item header     { }
+  .item header h4  { font-family: "PFBeauSansPro Regular"; font-size: 28px; color: #75c641; margin: 32px auto; text-align: left;}
+  .item header h4 .subheader {font-family: "PFBeauSansPro XThin"; font-weight: 100;}
 
   .item p          { font-family: "Verdana"; font-size: 14px; font-weight: normal; color: #16202e;}
   .item a          { font-family: "Verdana"; font-size: 14px; font-weight: normal; color: #75c641;}
 
   .points          { padding-bottom: 170px; }
+  .points p        { margin: 10px auto;}
 }
 
 .feedback {
@@ -204,7 +207,7 @@ hr.rays-II:before   { background-image: url("../assets/devider_2.svg"); }
 
   @extend .grid-40 ;
   @extend .grid-container;
-
+  margin-top: 50px;
   position: relative;
   padding-left: 80px;
   left: -80px;
